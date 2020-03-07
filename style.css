@@ -17,3 +17,85 @@ html { box-sizing: border-box; }
 body {
     background-color: #bdc3c7;
 }
+.profil {
+    width: 250px;
+    background-color: #31363b;
+}
+
+.foto {
+    max-width: 250px;
+}
+
+.jmeno {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 22px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+    color:#bdc3c7;
+    font-size: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.logo {
+    position: absolute;
+    left: 190px;
+    top: 150px;
+    border-radius: 50%;
+    background-color: #b92e81;
+    }
+
+    li {
+        display: inline-block;
+        padding: 0,5em;
+    }
+
+    ul {
+        padding-left: 20px;
+        background-color: ;
+    }
+
+    a {
+        display: block;
+        padding: 1em;   
+        color:#bdc3c7;
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .portfolio a:hover {
+        background-color: #e74c3c;
+    }
+
+    .facebook a:hover {
+        background-color :#3b5998;
+    }
+
+    .twitter a:hover {
+        background-color: #1da1f2;
+    }
+
+    .portfolio {
+        text-transform: uppercase;
+        font-size: 15px;
+    
+    }
+
+    .facebook {
+        text-transform: uppercase;
+        font-size: 15px;
+        
+    }
+
+    .twitter {
+        text-transform: uppercase;
+        font-size: 15px;
+        
+    }
